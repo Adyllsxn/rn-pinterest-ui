@@ -14,10 +14,11 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: theme.Colors.black
+        backgroundColor: theme.colors.black
     },
     title:{
         color: "blue",
-        fontSize: theme.FontSize.normal
+        fontSize: theme.fontSize.sm
+        
     }
 }) 

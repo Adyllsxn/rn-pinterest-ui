@@ -2,10 +2,10 @@ import { theme } from "@/theme";
 import { FontFamily } from "@/theme/fontFamily";
 import { StyleSheet, Text, View } from "react-native";
 
-export default function HomeScreen(){
+export default function SearchScreen(){
     return(
         <View style={styles.container}>
-            <Text style={styles.title}>Home</Text>
+            <Text style={styles.title}>Search</Text>
         </View>
     )
 }

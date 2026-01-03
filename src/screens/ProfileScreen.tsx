@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     },
     title:{
         color: theme.colors.white,
-        fontSize: theme.fontSize.sm,
+        fontSize: theme.fontSize.md,
         fontFamily: theme.fontFamily.bold,
     }
 }) 

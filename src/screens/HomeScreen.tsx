@@ -1,11 +1,14 @@
+import Filters from "@/components/Filters";
 import { theme } from "@/theme";
-import { FontFamily } from "@/theme/fontFamily";
-import { StyleSheet, Text, View } from "react-native";
+import { utils } from "@/utils";
+import { useState } from "react";
+import { StyleSheet, View } from "react-native";
 
 export default function HomeScreen(){
+    const [filt, setfilt] = useState(utils.filter[0]);
     return(
         <View style={styles.container}>
-            <Text style={styles.title}>Home</Text>
+            <Filters filters={utils.filter} filter={filt} onChange={setfilt}/>
         </View>
     )
 }
@@ -13,8 +16,8 @@ export default function HomeScreen(){
 const styles = StyleSheet.create({
     container:{
         flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
+        padding: 12,
+        paddingTop: 52,
         backgroundColor: theme.colors.black,
     },
     title:{

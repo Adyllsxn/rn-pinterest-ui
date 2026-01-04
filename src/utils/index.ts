@@ -1,5 +1,7 @@
-import { Github } from "./photo";
+import { GITHUB } from "./github";
+import { FILTERS } from "./filters";
 
 export const utils ={
-    github: Github
+    github: GITHUB,
+    filter: FILTERS
 }

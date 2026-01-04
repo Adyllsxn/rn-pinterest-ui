@@ -43,11 +43,11 @@ export default function TabLayout(){
             <Tabs.Screen 
                 name="profile" 
                 options={{
-                    tabBarIcon: ({size, color}) =>(
+                    tabBarIcon: ({color}) =>(
                         <Avatar 
-                            selected
+                            selected={color == theme.colors.white}
                             source={{
-                                uri: utils.github.photo
+                                uri: utils.github.image
                             }}
                             />
                     ),

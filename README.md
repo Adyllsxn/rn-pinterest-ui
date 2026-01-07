@@ -53,6 +53,7 @@ npx expo start
 ---
 
 ## 📸 Preview
+![Demo](./assets/demo/rn-pinterest-ui.png "Visual Demo")
 
 ---
 

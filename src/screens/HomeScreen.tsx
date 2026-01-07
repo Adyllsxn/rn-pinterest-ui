@@ -1,4 +1,5 @@
 import Filters from "@/components/Filters";
+import { Posts } from "@/components/Posts";
 import { theme } from "@/theme";
 import { utils } from "@/utils";
 import { useState } from "react";
@@ -9,6 +10,7 @@ export default function HomeScreen(){
     return(
         <View style={styles.container}>
             <Filters filters={utils.filter} filter={filt} onChange={setfilt}/>
+            <Posts posts={utils.posts} />
         </View>
     )
 }

@@ -5,15 +5,15 @@
     "source.sortMembers": "explicit"
   },
   "workbench.colorCustomizations": {
-    "statusBar.background": "#708090",
+    "statusBar.background": "#78866b",
     "statusBar.foreground": "#ffffff",
-    "statusBar.noFolderBackground": "#708090",
+    "statusBar.noFolderBackground": "#78866b",
     "statusBar.noFolderForeground": "#ffffff",
-    "statusBar.debuggingBackground": "#708090",
+    "statusBar.debuggingBackground": "#78866b",
     "statusBar.debuggingForeground": "#ffffff",
-    "titleBar.activeBackground": "#708090",
+    "titleBar.activeBackground": "#78866b",
     "titleBar.activeForeground": "#ffffff",
-    "titleBar.inactiveBackground": "#708090",
+    "titleBar.inactiveBackground": "#78866b",
     "titleBar.inactiveForeground": "#ffffff"
   }
 }

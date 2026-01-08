@@ -25,7 +25,7 @@ export const Menu = forwardRef<BottomSheet, MenuProps>(({ onClose }, ref) => {
               style={{ marginRight: 34 }}
               onPress={onClose}
             />
-            <Text style={styles.title}>Pintereste Menu</Text>
+            <Text style={styles.title}>Menu</Text>
           </View>
           <View style={styles.options}>
             <MenuButton title="Home" icon="home"/>
